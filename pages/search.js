@@ -7,7 +7,6 @@ import SearchResults from "../Components/SearchResults";
 
 function Search({ results }) {
   const router = useRouter();
-  console.log(results);
   return (
     <div>
       <Head>
