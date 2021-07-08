@@ -49,6 +49,7 @@ export default function Home() {
       <form className="flex flex-col items-center mt-20 flex-grow w-4/5">
         <Image
           src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png"
+          alt=""
           height={100}
           width={300}
         />
@@ -71,7 +72,7 @@ export default function Home() {
             Google Search
           </button>
           <button onClick={search} className="btn">
-            I'm Feeling Lucky
+            I &apos; m Feeling Lucky
           </button>
         </div>
       </form>
