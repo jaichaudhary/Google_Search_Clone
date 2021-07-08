@@ -1,5 +1,4 @@
 //Api key
 
-export const API_KEY = "AIzaSyC6RIlcPpeCuaLIRjdFtpSl2MW7H3ZTzKU";
-
-export const CONTEXT_KEY = "8045ca738a0a0da7d";
+export const API_KEY = process.env.API_KEY;
+export const CONTEXT_KEY = process.env.CONTEXT_KEY;
