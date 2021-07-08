@@ -1,7 +1,7 @@
 module.exports = {
   reactStrictMode: true,
   images: {
-    domains: ["www.google.com"],
+    domains: ["www.google.com", "avatars.githubusercontent.com"],
   },
   env: {
     API_KEY: "AIzaSyC6RIlcPpeCuaLIRjdFtpSl2MW7H3ZTzKU",
